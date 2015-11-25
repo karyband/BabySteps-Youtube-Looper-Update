@@ -1,0 +1,129 @@
+/********************* BASE *********************/
+body
+{
+margin:0;
+padding:0;
+background:#EFF0ED;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+button{
+background-color:#669999;	
+font-size:30px;
+color:white;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+width:250px;
+}
+
+/******************** Layout ********************/
+.container {
+    width: 1030px;
+    margin: 2em auto;
+}
+
+.abs_center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    float:left;
+	text-align: center;
+}
+
+
+.loop{ /*title part of the saved loops column*/
+display: block;
+text-decoration: none;
+padding: 5px;
+padding-left: 10px;
+border-left-style: solid;
+border-left-width: 10px;
+border-left-color: #2E4172;
+}
+
+.marker{
+font-size:.8em;
+position:absolute;
+}
+
+
+
+
+/*************** MODULES *******************/
+/*top youtube link bar*/
+#load_in{
+background-color:#2E4172;
+padding:25px;
+border-bottom: solid 3px;
+text-align:center;
+width:100%;
+}
+
+/*youtube link*/
+#form{
+border-style: solid;
+border-width: 2px;
+padding:10px;
+font-size:20px;
+background:white;
+}
+
+/*Bar for looping*/
+#bar{
+height:.8em;
+display:block;
+background-color:blue;
+}
+
+/*saved loops column*/
+#loops_col{
+float:right;
+width:33%;
+background:#FFFFFF;
+box-shadow:0px 0px 2px 1px #C9C9C9;
+-webkit-box-shadow:0px 0px 2px 1px #C9C9C9;
+-moz-box-shadow:0px 0px 2px 1px #C9C9C9;
+line-height: 140%;
+font-size:17px;
+overflow-x:scroll;
+max-height: 600px;
+}
+
+#saved_loops{ /*title part of the saved loops column*/
+padding:10px;
+margin:0px;
+font-size:25px;
+background:#669999;
+color:white;
+display: block;
+text-decoration: none;
+padding: 5px;
+padding-left: 10px;
+border-left-style: solid;
+border-left-width: 10px;
+border-left-color: #2E4172;
+}
+
+#current_loop{
+margin-bottom:3px;
+}
+
+#name_button, #myButton {
+	margin:5px;
+}
+
+
+/***************************** STATES *******************************/
+a:hover, #delete_loop:hover {
+cursor: pointer; 
+opacity: 0.5;
+}
+
+#delete_loop{
+height:0.8em;
+text-align:center;
+color:black;
+opacity: 0.6;
+}
+
+
+
